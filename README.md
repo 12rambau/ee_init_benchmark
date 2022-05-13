@@ -9,7 +9,10 @@ ee.Initialize()
 
 In his [tutorial](https://gorelick.medium.com/fast-er-downloads-a2abd512aa26), N. Gorelick suggest tu use the [highvolumne](https://developers.google.com/earth-engine/cloud/highvolume) endpoint when batch donwloading images as it should be faster
 
+```
 ee.Initialize(opt_url='https://earthengine-highvolume.googleapis.com')
+```
+
 Based on this assumption the questions for us would be:
 
 How fast is it ?
